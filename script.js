@@ -21,8 +21,15 @@ async function searchImages() {
     results.map((result) => {
             const imageWrapper = document.createElement("div");
             imageWrapper.classList.add("search-result");
-            // console.log(imageWrapper.classList);
             const image = document.createElement("img");
+            // console.log(imageWrapper.classList);
+            // console.log(imageWrapper.classList);
+            // console.log(imageWrapper.classList);
+            // console.log(imageWrapper.classList);
+            // console.log(imageWrapper.classList);
+            // console.log(imageWrapper.classList);
+            // console.log(imageWrapper.classList);
+            // console.log(imageWrapper.classList);
             image.src = result.urls.small;
             image.alt = result.alt_description;
             const imageLink = document.createElement("a");
